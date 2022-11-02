@@ -84,8 +84,8 @@
                     </td>
                 </tr>
 
-                <tr class="bg-dark">
-                    <il><?=$book_number?></il>
+                <tr class="light">
+                    <td><?=$book_number?></td>
                     <td><?=$name?></td>
                     <td><?=$startDate?></td>
                     <td><?=$endDate?></td>

@@ -78,11 +78,11 @@
                     <div class="card-body">
                         <h5 class="card-title">Toyota Fortuner</h5>
                         <p class="card-text">Rp 1.300.000 / Day </p>
-                        <li class="list-group list-group-flush" style="text-align :center;">
+                        <ul class="list-group list-group-flush" style="text-align :center;">
                             <li class="list-group-item text-primary">7 Seat</li>
                             <li class="list-group-item text-primary">2800 cc</li>
                             <li class="list-group-item text-primary">Matic</li>
-                        </li>
+                        </ul>
                     </div>
                     <div class="card-footer d-flex justify-content-center">
                         <form action="Fatah_Booking.php" method="post">

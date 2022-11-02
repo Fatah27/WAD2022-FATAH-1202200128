@@ -115,7 +115,7 @@
                         </div>
 
                         <div class="mb-3 d-grid gap-2">
-                            <class="btn btn-primary btn-block" type="submit">Book
+                            <button class="btn btn-primary btn-block" type="submit">Book</button>
                         </div>
                     </form>
                 </div>
