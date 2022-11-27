@@ -1,4 +1,5 @@
 <?php
+require './connector.php';
 session_start();
 
 if (empty($_POST['username']) && empty($_POST['email']) 
@@ -44,8 +45,11 @@ if (isset($_POST['submit'])) {
                 </script>
             </body>";
         } else {
+            $query="INSERT INTO user_fatah VALUES('','$username','$email','$pwd')"; 
+            mysqli_query($conn,$query);
             set_cookie();
             header("location: ../pages/Login-Fatah.php", true, 301);
+            return mysqli_affected_rows($conn);
             die();
         }
     } else {
@@ -56,6 +60,7 @@ if (isset($_POST['submit'])) {
                 </script>
             </body>";
     }
+    
 }
 
 ?>
