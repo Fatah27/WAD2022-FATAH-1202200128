@@ -1,6 +1,6 @@
 <?php
 require '../config/connector.php';
-session_start();
+session_reset();
 
 if(isset($_POST["submit"])){
 	$email = $_POST['email'];
