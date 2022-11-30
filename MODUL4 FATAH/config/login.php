@@ -4,8 +4,8 @@
     if (empty($_COOKIE['user'])) {
         echo "<body>
             <script>
-                // alert('Akun tidak terdaftar ! mohon buat akun terlebih dahulu')
-                // window.location.replace('../pages/Login-Fatah.php')
+                alert('Akun tidak terdaftar ! mohon buat akun terlebih dahulu')
+                window.location.replace('../pages/Login-Fatah.php')
             </script>
         </body>";
     }
