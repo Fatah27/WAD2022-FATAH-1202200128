@@ -26,7 +26,7 @@
 
   <!-- Jumbotron -->
   <section id="home">
-    <div class="container">
+    <div>
       <div class="d-flex gap-5 bungkus justify-content-center align-items-center">
         <div>
           <h1>Selamat Datang Di<br /> Show Room Fatah</h1>

@@ -28,10 +28,10 @@ function set_cookie() {
             'email' => $email, 
             'password' => $pwd];
     setcookie('user', json_encode($new));
-    // $_SESSION['username'] = $username;
-    // $_SESSION['email'] = $email;
-    // $_SESSION['fname'] = $fname;
-    // $_SESSION['lname'] = $lname;
+    $_SESSION['username'] = $username;
+    $_SESSION['email'] = $email;
+    $_SESSION['fname'] = $fname;
+    $_SESSION['lname'] = $lname;
 }
 
 if (isset($_POST['submit'])) {

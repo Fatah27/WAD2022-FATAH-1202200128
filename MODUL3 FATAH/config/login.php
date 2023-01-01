@@ -1,7 +1,7 @@
 <?php
     // include "./headers.php";
     session_start();
-    if (empty($_COOKIE['user'])) {
+    if (empty(['user'])) {
         echo "<body>
             <script>
                 alert('Akun tidak terdaftar ! mohon buat akun terlebih dahulu')
